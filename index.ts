@@ -6,7 +6,7 @@ import inquirer from "inquirer"
 
 const random_num = Math.floor(Math.random()*10 + 1); 
 //  +1 is liyay so that 0 na aay aay bh to 1 add ho kar 1 aa jay 
-
+console.log("WELCOME TO MY TS NUMBER GUESSING GAME ");
 const guess_num = await inquirer.prompt([
   {
     name:"userGuessedNumber",
